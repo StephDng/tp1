@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class HelloWorldTest {
 
-    @Disabled
+    //@Disabled
     @Test
     public void test_hello_with_empty_string_is_compared_by_value() {
         assertEquals("Hello, World!", HelloWorld.hello(new String()));
