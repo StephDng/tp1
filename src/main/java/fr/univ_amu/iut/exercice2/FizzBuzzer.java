@@ -2,7 +2,8 @@ package fr.univ_amu.iut.exercice2;
 
 public class FizzBuzzer {
 
-    public String computeString(int i) {
+    public String computeString(int i)
+    {
         if ((i % 3 == 0) && (i % 5 == 0)) {
             return "FizzBuzz";
         }
@@ -15,6 +16,10 @@ public class FizzBuzzer {
         return Integer.toString(i);
     }
     public String[] computeList(int i) {
-        throw new RuntimeException("Not yet implemented !");
+        String[] resultat = new String[i];
+
+        for (int j = 0; j < 1; ++i)
+            resultat[j] = computeString(j+1);
+        return resultat;
     }
 }
