@@ -3,13 +3,17 @@ package fr.univ_amu.iut.exercice2;
 public class FizzBuzzer {
 
     public String computeString(int i) {
-        if (i == 1 || i == 2){
-            return String.valueOf(i);
+        if ((i % 3 == 0) && (i % 5 == 0)) {
+            return "FizzBuzz";
         }
-
-        return"0";
+        if (i % 3 == 0) {
+            return "Fizz";
+        }
+        if (i % 5 == 0) {
+            return "Buzz";
+        }
+        return Integer.toString(i);
     }
-
     public String[] computeList(int i) {
         throw new RuntimeException("Not yet implemented !");
     }
