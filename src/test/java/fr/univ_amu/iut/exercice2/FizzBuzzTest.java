@@ -22,21 +22,21 @@ public class FizzBuzzTest {
         assertEquals("2", resultat);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     public void test_computeString_Should_Return_Fizz_when_3() {
         String resultat = fizzBuzz.computeString(3);
         assertEquals("Fizz", resultat);
     }
     
-    @Disabled
+    //@Disabled
     @Test
     public void test_computeString_Should_Return_4_when_4() {
         String resultat = fizzBuzz.computeString(4);
         assertEquals("4", resultat);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     public void test_computeString_Should_Return_Buzz_when_5() {
         String buzz = "Buzz";
@@ -44,42 +44,42 @@ public class FizzBuzzTest {
         assertEquals("Buzz", buzz);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     public void test_computeString_Should_Return_Fizz_when_6() {
         String resultat = fizzBuzz.computeString(6);
         assertEquals("Fizz", resultat);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     public void test_computeString_Should_Return_Fizz_when_9() {
         String resultat = fizzBuzz.computeString(9);
         assertEquals("Fizz", resultat);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     public void test_computeString_Should_Return_Buzz_when_10() {
         String resultat = fizzBuzz.computeString(10);
         assertEquals("Buzz", resultat);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     public void test_computeString_Should_Return_FizzBuzz_when_15() {
         String resultat = fizzBuzz.computeString(15);
         assertEquals("FizzBuzz", resultat);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     public void test_computeList_Should_Return_a_sequence_of_5_elements_when_5() {
         String[] resultat = fizzBuzz.computeList(5);
         assertEquals(5, resultat.length);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     public void test_computeList_Should_Return_a_sequence_of_5_FizzBuzz_elements_when_5() {
         String[] resultat = fizzBuzz.computeList(5);
@@ -90,7 +90,7 @@ public class FizzBuzzTest {
         assertEquals("Buzz", resultat[4]);
     }
 
-    @Disabled
+    //@Disabled
     @Test
     public void test_computeList_Should_Return_a_sequence_of_15_FizzBuzz_elements_when_15() {
         String[] resultat = fizzBuzz.computeList(15);
